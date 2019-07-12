@@ -1,12 +1,12 @@
 package com.visa.prj.entity;
 
-public class TV extends Product {
+public class Tv extends Product {
 	public String screenType;
 
-	public TV() {
+	public Tv() {
 	}
 
-	public TV(int id, String name, double price, String screenType) {
+	public Tv(int id, String name, double price, String screenType) {
 		super(id, name, price);
 		this.screenType = screenType;
 	}
